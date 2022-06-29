@@ -8,8 +8,8 @@ public class DataTable_StepDefinition {
 
     @Then("user should see fruits I like")
     public void user_should_see_fruits_i_like(List<String> fruits) {
-        System.out.println(fruits);
-        System.out.println(fruits.get(1));
+       System.out.println(fruits);
+       System.out.println(fruits.get(1));
     }
 
 }
